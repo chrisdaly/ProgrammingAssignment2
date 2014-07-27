@@ -1,6 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## Creates a matrix object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -35,7 +32,6 @@ makeCacheMatrix <- function(x = matrix()) {
        setinv = setinv, 
        getinv = getinv)
 }
-
 
 ## Checks the matrix object for a cached inverse, otherwise
 ## computes the matrix's inverse and stores it
